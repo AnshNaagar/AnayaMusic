@@ -61,7 +61,7 @@ from FrozenMusic.telegram_client.startup_hooks import precheck_channels
 load_dotenv()
 
 
-API_ID = int(os.environ.get("API_ID"))
+API_ID = (os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 ASSISTANT_SESSION = os.environ.get("ASSISTANT_SESSION")
